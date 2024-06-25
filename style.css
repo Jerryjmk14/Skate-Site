@@ -1,0 +1,12 @@
+.jumbotron {
+  text-align: center;
+}
+
+.carousel-item img {
+  height: 350px;
+}
+
+.section-light {
+  background: #eceeef;
+  margin: 2em;
+}
