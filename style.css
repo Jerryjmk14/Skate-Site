@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron-title {
   text-align: center;
 }
 
@@ -8,5 +8,29 @@
 
 .section-light {
   background: #eceeef;
-  margin: 2em;
+  padding: 2rem;
+}
+
+.section-dark {
+  background: #cccccc;
+  padding: 2rem;
+}
+
+img.float-md-end {
+  border-radius: 50px;
+}
+
+.cool-stuff-wrapper {
+  margin-top: 20px;
+}
+
+button.cool-stuff-btn {
+  background-color: red;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  &:hover {
+    background-color: rgb(243, 38, 38);
+    color: #ffffff;
+  }
 }
