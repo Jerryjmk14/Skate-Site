@@ -42,3 +42,16 @@ h1.modal-title {
 .modal-form-wrapper {
   padding: 2rem;
 }
+
+.center-img {
+  display: block;
+  margin: auto;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 67%;
+}
