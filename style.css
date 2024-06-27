@@ -59,3 +59,14 @@ h1.modal-title {
   margin-bottom: 20px;
   width: 67%;
 }
+
+.footerImg {
+  padding: 15px;
+  /* width: 300px; */
+}
+
+.footer-icons {
+  font-size: 50px;
+  color: #ffffff;
+  padding: 2rem;
+}
