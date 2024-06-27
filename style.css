@@ -20,7 +20,7 @@ img.float-md-end {
   border-radius: 50px;
 }
 
-.cool-stuff-wrapper {
+.cool-stuff-btn-wrapper {
   margin-top: 20px;
 }
 
@@ -33,4 +33,12 @@ button.cool-stuff-btn {
     background-color: rgb(243, 38, 38);
     color: #ffffff;
   }
+}
+
+h1.modal-title {
+  margin: auto;
+}
+
+.modal-form-wrapper {
+  padding: 2rem;
 }

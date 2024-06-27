@@ -81,7 +81,10 @@
         <div class="row">
           <div class="col"></div>
           <div class="col-sm-12 col-md-6">
-            <div id="mainCarousrel" class="carousel slide">
+            <div
+              id="mainCarousrel"
+              class="carousel slide"
+              data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -175,10 +178,81 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="cool-stuff-btn-wrapper">
-              <button type="button" class="btn btn-lg cool-stuff-btn">
+              <button
+                type="button"
+                class="btn btn-lg cool-stuff-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#coolStuffModal">
                 Get Cool Stuff
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- cool stuff modal -->
+    <div
+      class="modal fade"
+      id="coolStuffModal"
+      tabindex="-1"
+      aria-labelledby="coolStuffLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="contentLabel">
+              Get Exclusive Content
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="assets/kf Studio Modal.jpeg" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modal-form-wrapper">
+                    <div class="mb-3">
+                      <label for="formName" class="form-label"
+                        >What's your name?</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="formName"
+                        placeholder="Name" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="formEmail" class="form-label"
+                        >Where should we send your cool content?</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="formEmail"
+                        placeholder="Email" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Close
+            </button>
           </div>
         </div>
       </div>
