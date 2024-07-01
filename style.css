@@ -70,3 +70,13 @@ h1.modal-title {
   color: #ffffff;
   padding: 2rem;
 }
+
+[name="logo-facebook"] {
+  color: #3b5998;
+}
+[name="logo-instagram"] {
+  color: #ffffff;
+}
+[name="logo-googleplus"] {
+  color: #c32f10;
+}
